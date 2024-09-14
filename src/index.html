@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="preload"
+      href="asset/Roboto-Regular.ttf"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="dist/aos.css" />
+  </head>
+  <body class="">
+    <nav class="fixed top-0 left-0 z-50 w-full">
+      <div
+        class="flex items-center justify-between w-7/12 p-2 mx-auto mt-4 border-2 rounded-full shadow-xl bg-white/60 backdrop-blur-md"
+      >
+        <div class="flex-none ml-2 text-2xl font-bold">
+          <span class="text-orange-400">Jee</span>.S
+        </div>
+        <div class="flex-1 px-40 xl:block md:hidden sm:hidden">
+          <ul class="flex gap-8 text-gray-600">
+            <li class="font-medium text-orange-400 hover:font-semibold">
+              <a href="#home">Home</a>
+            </li>
+            <li class="hover:text-gray-600 hover:font-semibold">
+              <a href="#experience">Experience</a>
+            </li>
+            <li class="hover:font-semibold hover:text-gray-600">
+              <a href="#show-case">Show Case</a>
+            </li>
+            <li class="hover:font-semibold hover:text-gray-600">
+              <a href="#social">Find Me</a>
+            </li>
+          </ul>
+        </div>
+        <div class="font-bold">
+          <input
+            type="text"
+            placeholder="Search"
+            class="flex-none px-3 mr-2 text-base rounded-full bg-gray-100/70 lg:hidden xl:block md:hidden sm:hidden"
+          />
+          <img
+            src="img/menu.png"
+            class="max-h-[40px] xl:hidden md:block sm:block"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="h-screen py-36 md:bg-white">
+      <div
+        class="grid w-8/12 gap-10 mx-auto mt-40 md:grid-cols-2 sm:grid-cols-1"
+      >
+        <div class="my-auto">
+          <!-- <div
+            class="px-2 mb-2 font-bold text-gray-600 border-2 border-gray-600 rounded-full w-fit"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
+            COFFEE EXPERIENCE CENTER
+          </div> -->
+          <img
+            src="img/person1.jpg"
+            alt=""
+            class="rounded-full h-[80px] w-[80px] object-cover"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          />
+          <div
+            class="text-6xl mt-7"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+          >
+            Hello! I'am Julius
+            <span class="font-bold text-gray-400"> Sihotang</span>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
+          <div class="text-4xl">
+            A website designer based in Kuala Pembuang, Indonesia.
+          </div>
+          <div class="text-gray-400">
+            Passionate creating great experiences for Digital Product.
+          </div>
+          <div class="flex gap-5">
+            <button class="bg-orange-400 btn btn-utama w-fit">
+              Talk with me
+            </button>
+            <button class="btn w-fit">See my works</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="bg-[#faf0e6] items-center align-middle">
+      <div
+        class="grid w-8/12 py-20 mx-auto my-auto md:grid-cols-2 sm:grid-cols-1"
+      >
+        <div class="">
+          <div class="text-4xl mb-14">Working Experience</div>
+          <div class="flex gap-4">
+            <img src="img/government.svg" alt="" class="h-[50px]" />
+            <div class="w-full p-0 m-0">
+              <div class="m-0">
+                IT Support -
+                <span class="font-bold">DPMPSP Kab.Seruyan</span>
+              </div>
+              <div class="text-gray-500">2 Januari 2019 - 30 April 2024</div>
+            </div>
+          </div>
+          <div class="flex gap-4 mt-10">
+            <img src="img/government.svg" alt="" class="h-[50px]" />
+            <div class="w-full p-0 m-0">
+              <div class="m-0">
+                Ahli Pertama Pranata Komputer -
+                <span class="font-bold">BKAD Kab.Seruyan</span>
+              </div>
+              <div class="text-gray-500">1 May 2019 - Now</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="text-4xl mb-14">Awards</div>
+          <div class="flex gap-4 mt-10">
+            <img src="img/medal.svg" alt="" class="h-[50px]" />
+            <div class="w-full p-0 m-0">
+              <div class="m-0">
+                2nd place Painting -
+                <span class="font-bold">Porseni Tk.Prov</span>
+              </div>
+              <div class="text-gray-500">2010</div>
+            </div>
+          </div>
+          <div class="flex gap-4 mt-10">
+            <img src="img/trophy.svg" alt="" class="h-[50px]" />
+            <div class="w-full p-0 m-0">
+              <div class="m-0">
+                1st place Poem -
+                <span class="font-bold">FLS2N Tk.Prov</span>
+              </div>
+              <div class="text-gray-500">2011</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="show-case" class="py-24">
+      <div class="bg-white">
+        <div
+          class="max-w-2xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8"
+        >
+          <h2
+            class="text-2xl font-bold tracking-tight text-gray-900"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
+            My showcases
+          </h2>
+
+          <div
+            class="grid mt-6 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8"
+          >
+            <div
+              class="relative scale-90 hover:scale-100 group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/showcase1.png"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md aspect-square"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Music Streaming App
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Planned</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1200"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/showcase2.png"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Branding Solution
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">For your business</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1200"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/showcase3.png"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      UI/UX
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">For your business</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1200"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/showcase4.png"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      UI/UX
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">For your business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="social" class="py-36">
+      <div
+        class="text-center mb-14"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="800"
+      >
+        <div class="mx-auto text-5xl font-bold">
+          Find <span class="text-orange-400">Me</span>
+        </div>
+        <p class="text-gray-500">My social media so we can connect</p>
+      </div>
+      <div class="grid w-8/12 gap-20 mx-auto md:grid-cols-2 sm:grid-cols-1">
+        <div
+          class="items-center p-5 text-center transition-transform scale-95 border-2 rounded-xl hover:scale-100"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1000"
+        >
+          <img
+            src="img/portfolio.jpg"
+            alt=""
+            class="w-[300px] h-[300px] mx-auto rounded-full object-cover"
+          />
+          <div class="mt-5 text-2xl font-bold">Instagram</div>
+          <p class="text-gray-400">jls.portfolio</p>
+          <div class="flex items-center justify-center mt-5">
+            <a href="https://www.instagram.com/jls.portfolio/"
+              ><img src="img/instagram.svg" alt="" class="w-6 h-6"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="items-center p-5 text-center transition-transform scale-95 border-2 rounded-xl hover:scale-100"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
+          <img
+            src="img/linkedin.jfif"
+            alt=""
+            class="w-[300px] h-[300px] mx-auto rounded-full object-cover"
+          />
+          <div class="mt-5 text-2xl font-bold">Julius Sihotang</div>
+          <p class="text-gray-400">Linkedin</p>
+          <div class="flex items-center justify-center mt-5">
+            <a href="https://linkedin.com"
+              ><img src="img/linkedin.svg" alt="" class="w-6 h-6"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-orange-500" id="contact">
+      <div class="items-center w-8/12 py-20 mx-auto">
+        <div class="grid mt-24 md:grid-cols-4 sm:grid-cols-1">
+          <div class="col-span-3">
+            <div class="flex gap-2 mb-10">
+              <img
+                src="img/location.png"
+                class="max-w-[20px] max-h-[20px]"
+                alt=""
+              />
+              <p>Jl. Gajah Mada No 02 Kuala Pembuang (74212)</p>
+            </div>
+            <div class="flex gap-2 mb-10">
+              <img
+                src="img/telephone.png"
+                class="max-w-[20px] max-h-[20px]"
+                alt=""
+              />
+              <p>(+62) 853 1112</p>
+            </div>
+            <div class="flex gap-2 mb-10">
+              <img
+                src="img/mail.png"
+                class="max-w-[20px] max-h-[20px]"
+                alt=""
+              />
+              <p>msp.juliussihotang@gmail.com</p>
+            </div>
+            <div class="font-bold">Follow us</div>
+            <div class="flex gap-5 mt-4">
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/instagram.svg" class="h-[30px]" alt=""
+                /></a>
+              </div>
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/facebook.png" class="h-[30px]" alt=""
+                /></a>
+              </div>
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/twitter.png" class="h-[30px]" alt=""
+                /></a>
+              </div>
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/tik-tok.png" class="h-[30px]" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-span-1">
+            <p class="font-bold">Message me!</p>
+            <label class="flex items-center gap-4 my-2 input">
+              <input type="text" class="grow" placeholder="Name" />
+            </label>
+            <label class="flex items-center gap-2 my-2 input">
+              <input type="text" class="grow" placeholder="Email" />
+            </label>
+            <label class="flex items-center gap-2 my-2 input">
+              <input type="text" class="grow" placeholder="Message.." />
+            </label>
+            <button class="btn-utama">Send</button>
+          </div>
+        </div>
+      </div>
+      <div class="py-24 text-center text-gray-800">
+        2024 - <span class="font-bold">Julius Sihotang</span> | dibimbing. All
+        right reserved.
+      </div>
+    </footer>
+    <script src="dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
